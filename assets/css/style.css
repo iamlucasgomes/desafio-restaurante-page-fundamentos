@@ -1,0 +1,318 @@
+@font-face {
+    font-family: Chicago Police Fonte;
+    src: url(/assets/font/Chicago-Police-Font.otf);
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Chicago Police Fonte';
+}
+h1{
+    visibility: hidden;
+}
+p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+    background-color: #b80319;
+}
+
+header {
+    /* background-color: chocolate; */
+    background-color: white;
+}
+
+main {
+    background-color: #ffffff;
+    width: 80%;
+    margin: auto;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    position: absolute;
+    left: 0;
+    width: 99.6%;
+    padding: 10px 0 200px 5px;
+}
+
+svg {
+    width: 15px;
+    height: 14px;
+    padding: 2px;
+    fill: white;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+#banner{
+    width: 1060px;
+    height: 520px;
+    max-width: 100%;
+}
+
+.cardapio {
+    width: 190px;
+    height: 254px;
+    display: inline-block;
+    background: #861119;
+    border-radius: 0.4em;
+    box-shadow: 0.3em 0.3em 0.7em #00000015;
+    transition: border 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border: white 0.2em solid;
+}
+.cardapio img{
+    width: 191px;
+    height: 255px;
+    border-radius: 0.4em;
+}
+
+.cardapio:hover {
+    border: #000000 0.2em solid;
+}
+
+#space {
+    margin-top: 0;
+    padding: 15px 0 0 0;
+}
+
+#promotion img {
+    height: 490px;
+    margin: auto;
+}
+
+#logo {
+    width: 166px;
+    padding: 20px;
+}
+
+#ifood {
+    position: absolute;
+    width: 166px;
+    padding: 10px;
+    margin-left: 60%;
+    top: 15%;
+}
+
+#logo-footer {
+    width: 166px;
+    padding: 10px;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+#menu {
+    width: 75%;
+    margin: auto;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: inherit;
+    align-items: center;
+}
+
+#menu li:hover {
+    background-color: #000000;
+}
+
+#menu li {
+    display: flex;
+    padding: 0 5%;
+    margin-top: 10px;
+    text-align: center;
+    align-items: center;
+    border: 1px solid #ffffff;
+    background-color: #b80319;
+    color: #ffffff;
+    width: 140px;
+    height: 48px;
+    justify-content: center;
+
+}
+
+#menu li:nth-child(1) {
+    border-radius: 10px 0px 0px 10px;
+}
+
+#menu li:nth-child(4) {
+    border-radius: 0px 10px 10px 0px;
+}
+
+#logo-footer {
+    width: 166px;
+}
+
+#lojas article {
+    padding-left: 5px;
+    margin-right: 10px;
+    border: 1px solid white;
+}
+
+.card {
+    width: 190px;
+    height: 254px;
+    border-radius: 1em;
+    padding: 1.9rem;
+    background: #f5f5f5;
+    position: relative;
+    display: flex;
+    align-content: flex-end;
+    transition: 0.4s ease-out;
+    box-shadow: 0px 7px 20px rgba(43, 8, 37, 0.2);
+}
+
+.card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    /* background: rgba(238, 116, 116, 0.4); */
+    z-index: 2;
+    transition: 0.5s;
+    border-radius: 1em;
+}
+
+.card-info {
+    position: relative;
+    z-index: 3;
+    color: #861119;
+    padding-left: 5px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 1em;
+    opacity: 1;
+    transform: translateY(20%);
+    transition: 0.5s;
+}
+.card-info img{
+    width: 100%;
+    border-radius: 1em;
+    border: 2px solid black;
+}
+
+.text-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.text-title .text-body{
+    padding-left: 10px;
+}
+.text-body {
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+    margin: 5px 0 15px 0;
+}
+
+.card-button {
+    padding: 0.6rem;
+    outline: none;
+    border: none;
+    position: absolute;
+    bottom: 5%;
+    border-radius: 4px;
+    background: #861119;
+    color: white;
+    font-weight: bold;
+    transition: 0.4s ease;
+
+}
+
+.card-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    background: linear-gradient(to bottom, #e7aeae, #ee9ca7);
+}
+.card-img img {
+    width: 100%;
+    height: 50%;
+    border-radius: 1em;
+}
+.card:hover {
+    transform: translateY(5%);
+}
+
+.card:hover:before {
+    opacity: 1;
+}
+
+.card:hover .card-info {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.card-button:hover {
+    background: rgba(218, 77, 77, 0.4);
+    color: #f5f5f5;
+}
+.space {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+#social {
+    position: absolute;
+    bottom: 6%;
+    right: 5%;
+}
+
+#social li {
+    display: inline-block;
+    width: 40px;
+    padding-bottom: 50px;
+}
+
+#direitos {
+    color: white;
+    font-size: 8px;
+    position: absolute;
+    bottom: 1%;
+    right: 6%;
+    text-align: right;
+}
+
+#mapa {
+    padding-left: 20%;
+    position: absolute;
+    bottom: 25%;
+}
+
+#mapa h2 {
+    margin-left: 10px;
+}
+
+#mapa div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#menu-footer{
+    border-right: 2px solid #ffffff;
+    padding-right: 30px;
+}
+#menu-footer a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+#links-importantes a {
+    color: #b80319;
+    text-decoration: none;
+    padding-left: 0;
+}
