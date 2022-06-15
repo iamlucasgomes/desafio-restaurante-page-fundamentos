@@ -19,9 +19,7 @@ a{
 body {
     background-color: #b80319;
 }
-
 header {
-    /* background-color: chocolate; */
     background-color: white;
 }
 
@@ -85,7 +83,8 @@ ul {
 }
 
 #promotion img {
-    height: 490px;
+    height: 100%;
+    width: 99.5%;
     margin: auto;
 }
 
@@ -114,7 +113,7 @@ ul {
     margin: auto;
     margin-bottom: 0;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     flex-wrap: inherit;
     align-items: center;
 }
