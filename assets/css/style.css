@@ -1,6 +1,6 @@
 @font-face {
     font-family: Chicago Police Fonte;
-    src: url(assets/font/Chicago-Police-Font.otf);
+    src: url(font/Chicago-Police-Font.otf);
 }
 h1,h2,h3,h4,h5,h6{
     font-family: 'Chicago Police Fonte';
